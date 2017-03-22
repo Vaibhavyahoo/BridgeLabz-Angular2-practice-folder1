@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+<script type="text/javascript">
+document.getElementById("uploadBtn").onchange = function () {
+  document.getElementById("uploadFile").value = this.value;
+};
+</script>
+
+
+  <body>
+    <!-- <input id="uploadFile" placeholder="Choose File" disabled="disabled" /> -->
+    <div class="fileUpload btn btn-primary">
+        <span>Upload</span>
+        <input id="uploadBtn" type="file" class="upload" />
+    </div>
+
+  </body>
+</html>
